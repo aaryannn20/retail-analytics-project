@@ -1,0 +1,32 @@
+
+RETAIL ANALYTICS PROJECT SUMMARY
+===============================
+
+KEY METRICS:
+- Total Revenue: $21,485,135.73
+- Total Customers: 8,963
+- Average Order Value: $429.70  
+- Customer Lifetime Value: $2,397.09
+- Top 20% Revenue Contribution: 45.8%
+
+CUSTOMER SEGMENTS:
+- High Value Loyalists: 32.1% (2,875 customers)
+- Discount Driven: 67.9% (6,088 customers)
+
+TOP CATEGORIES:
+1. Electronics: 51.6% of revenue
+2. Sports: 21.4% of revenue
+3. Home & Garden: 13.3% of revenue
+
+PEAK MONTHS:
+1. August 2023: $974,288.68
+2. May 2024: $952,489.91
+3. October 2024: $933,773.65
+
+FILES READY FOR POWER BI:
+✓ sales_fact.csv (50,000 transactions)
+✓ customer_dimension.csv (8,963 customers)
+✓ product_dimension.csv (6 categories)
+✓ time_dimension.csv (730 days)
+✓ kpi_summary.csv (key metrics)
+✓ monthly_summary.csv (24 months)

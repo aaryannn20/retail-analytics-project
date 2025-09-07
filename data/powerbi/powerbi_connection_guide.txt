@@ -1,0 +1,37 @@
+
+POWER BI CONNECTION GUIDE
+========================
+
+FILES TO LOAD:
+1. sales_fact.csv (main transaction table)
+2. customer_dimension.csv 
+3. product_dimension.csv
+4. time_dimension.csv
+5. kpi_summary.csv
+6. monthly_summary.csv
+
+LOADING STEPS:
+1. Open Power BI Desktop
+2. Click "Get Data" → "Text/CSV" 
+3. Navigate to the powerbi folder
+4. Load each CSV file above
+
+RELATIONSHIPS TO CREATE:
+- sales_fact[customer_id] ↔ customer_dimension[customer_id]
+- sales_fact[product_category] ↔ product_dimension[product_category]
+- sales_fact[transaction_date] ↔ time_dimension[date]
+
+KEY MEASURES (DAX):
+Total Revenue = SUM(sales_fact[total_revenue])
+Total Customers = DISTINCTCOUNT(sales_fact[customer_id])
+AOV = DIVIDE([Total Revenue], COUNT(sales_fact[customer_id]))
+
+RECOMMENDED VISUALS:
+- KPI Cards: Revenue, Customers, AOV
+- Line Chart: Monthly trends
+- Bar Chart: Category performance  
+- Scatter Plot: Customer segmentation
+- Donut Chart: Revenue distribution
+
+Author: Aryan Mishra
+Project: Retail Analytics & Customer Segmentation

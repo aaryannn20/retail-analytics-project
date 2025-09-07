@@ -1,0 +1,10 @@
+metric,value,format
+Total Revenue,21485135.73,Currency
+Total Customers,8963.0,Number
+Average Order Value,429.70271460000004,Currency
+Customer Lifetime Value,2397.0920149503513,Currency
+Top 20% Revenue Contribution,45.77469294861188,Percentage
+Average Customer Lifetime (Days),472.83476514559857,Number
+Total Transactions,50000.0,Number
+High Value Customers,2875.0,Number
+Discount Driven Customers,6088.0,Number

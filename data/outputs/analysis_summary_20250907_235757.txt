@@ -1,0 +1,8 @@
+Retail Analytics Analysis Summary
+Generated on: 2025-09-07 23:57:57.773602
+Author: Aryan Mishra
+Total records: 50,000
+Unique customers: 8,963
+Total revenue: $21,485,135.73
+Average order value: $429.70
+Date range: 2023-01-01 to 2024-12-30
